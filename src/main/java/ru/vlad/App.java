@@ -16,6 +16,9 @@ public class App {
     }
 
     public static long fibonacciNumber(int number){
+        if (number == 2 || number == 1) {
+            return 1;
+        }
         long firstNumber = 1;
         long secondNumber = 1;
         long result = 0;
